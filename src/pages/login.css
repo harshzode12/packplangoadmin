@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+
+/* ---- Glass Card ---- */
+.login-card {
+  width: 420px;
+  padding: 40px 30px;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 25px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* ---- Inputs ---- */
+.input-box {
+  width: 90%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-box::placeholder {
+  color: white;
+}
+
+/* ---- Button ---- */
+.login-btn {
+  width: 60%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.password-wrapper {
+  width: 90%;
+  position: relative;
+  left: -15px;
+}
+
+.password-input {
+  width: 100%;
+}
+
+.password-wrapper .eye-icon {
+  position: relative;
+  top: -43px;
+  right: -350px; /* spacing from right edge */
+  transform: translateY(-50%);
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f4f6f8;
+}
+a { text-decoration: none; color: inherit; }

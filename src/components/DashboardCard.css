@@ -1,0 +1,15 @@
+.dashboard-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff; /* white cards stand out */
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
